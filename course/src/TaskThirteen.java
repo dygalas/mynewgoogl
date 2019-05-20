@@ -8,6 +8,10 @@ public class TaskThirteen {
 
         System.out.println("Введите строку 2...");
         String stringScnd = scanner.nextLine();
-        System.out.println("Наибольшая длина у строки: \n" + (stringFst.length() > stringScnd.length() ? stringFst : stringScnd));
+        if (stringFst.length() == stringScnd.length()) {
+            System.out.println("Строки одинаковые");
+        } else {
+            System.out.println("Наибольшая длина у строки: \n" + (stringFst.length() > stringScnd.length() ? stringFst : stringScnd));
         }
+    }
  }
