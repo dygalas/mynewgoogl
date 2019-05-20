@@ -15,12 +15,12 @@ public class TaskTen {
                 arr[i][j] = scanner.nextInt();
             }
         }
-        System.out.println("\nВведенные данные x3:");
-        for (int i = 0; i < rowSize; i++){
+        System.out.println("\nВведенные данные из первой строки x3:");
+//        for (int i = 0; i < rowSize; i++){
             System.out.println();
             for (int j = 0; j <columnSize; j++) {
-                System.out.print ("\t" + arr[i][j]*3);
-            }
+                System.out.print ("\t" + arr[0][j]*3);
+//            }
         }
  }
 }
