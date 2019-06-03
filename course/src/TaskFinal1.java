@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TaskFour {
+public class TaskFinal1 {
     public static void main(String[] args) {
         System.out.println("Введите число в двоичной системе:");
         Scanner sc = new Scanner(System.in);
